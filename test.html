@@ -1,4 +1,8 @@
 <!DOCTYPE html>
 <script type="module">
 const adapter = await navigator.gpu.requestAdapter();
+
+adapter.foo();  // this line should get an error as there is no foo function on GPUAdapter
+
+console.log(adapter);
 </script>
