@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<script type="module">
 const adapter = await navigator.gpu.requestAdapter();
 
 console.log(adapter);
-</script>
+
